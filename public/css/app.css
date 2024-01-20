@@ -70,3 +70,14 @@
 .edit-btn{
     background-color: blue !important;
 }
+/*
+mobile query */
+@media only screen and (max-width: 740px) {
+    .grid-container{
+        grid-template-columns: auto;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+  }

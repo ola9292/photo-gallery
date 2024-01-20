@@ -16,7 +16,7 @@ use App\Http\Controllers\PhotosController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/albums');
 });
 
 Route::get('/albums', [AlbumsController::class, 'index'])->name('albums.index');
